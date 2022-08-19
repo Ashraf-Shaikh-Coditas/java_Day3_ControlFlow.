@@ -1,0 +1,21 @@
+﻿ASHRAF SHAIKH                           ASSIGNMENT 3                             Date : 19/8/2022
+
+
+Q1)Consider the following code snippet.
+if (number1>= 0)                                                          ….1
+if (number1== 0)                                           …..2
+System.out.println("first");                           ……3
+Else                                                                 ……4
+System.out.printn("'second");                     ……5
+System.out.println("Third ");                       ……6
+
+
+Exercise: What output do you think the code will produce if number1 is 3?
+
+
+→
+OUTPUT will be :      second
+                       third
+
+
+Explanation : In if-else statements if we don’t use block { }, then by default only one line below if - else will be considered as a part of that if-else statements.
